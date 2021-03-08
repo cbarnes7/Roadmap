@@ -15,7 +15,7 @@ Near term
   - [ ] break out per file metrics vs. dataset metrics
 - [ ] Dataset content pre-rendered, only the  
 - [ ] machine-data-hub published to PyPI
-  - [ ] unit testing runs on every push
+  - [X] unit testing runs on every push
   - [ ] sphinx documentation pushes to readthedocs on tag
   - [ ] library builds and pushes to PyPI on tag
   - [ ] release notes section added to sphinx documentation
