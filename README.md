@@ -13,7 +13,7 @@ Near term
 - [ ] Nested dataset schema
   - [ ] each dataset can contain multiple files
   - [ ] break out per file metrics vs. dataset metrics
-- [ ] Dataset content pre-rendered, only the  
+- [ ] Dataset content pre-rendered, only user interaction elements (upvote controls and counts) load after  hydration
 - [ ] machine-data-hub published to PyPI
   - [X] unit testing runs on every push
   - [ ] sphinx documentation pushes to readthedocs on tag
