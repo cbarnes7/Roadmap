@@ -8,7 +8,7 @@ Near term
   - [X] License
   - [ ] Code of Conduct at the top level directory of the project repository or prominently in the documentation (with a link in the navigation, footer, or homepage)
   - [X] Must feature a link to Netlify service
-  - (In Progress) [ ] Review that all conditions are met, fill out the form and submit
+  - [ ] (In Progress) Review that all conditions are met, fill out the form and submit
 - [ ] machine-data-hub CLI does local ETL on at least three of the datasets
 - [X] Nested dataset schema
   - [X] each dataset can contain multiple files
@@ -34,14 +34,14 @@ Near term
 - [ ] (In Progress) UW ML Course students use machine-data-hub as data source for class project
 - [ ] Web App automated end to end testing
 - [ ] Web app receives a 90+ rating from [lighthouse](https://developers.google.com/web/tools/lighthouse) for performance
+  - [ ] Fix slow image loading
+
+Longer term
 - [ ] Auth-N (Authentication) implemented
 - [ ] Up Voting datasets
   - [ ] mitigation plan for duplicate votes (i.e. require Auth-N to cast a vote)
 - [ ] machinedatahub analytics (page views, dataset download counts) with Postgres
 - [ ] User trial with survey and reward to get feedback from potential users (possibly use to incentivize students above)
-
-Longer term
-
 - [ ] External user submits a new dataset
 - [ ] First pull request merged from non-original team member
 - [ ] Academic Paper Published
