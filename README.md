@@ -3,17 +3,18 @@
 Near term
 
 - [X] machinedatahub.ai site live
+- [ ] Metadata fully populated
+  - [ ] Make sure JSON schema is same from dataset to dataset
+  - [ ] Change "Dataset 1, 2" etc to "File 1/2" etc
 - [X] rebrand github group/repos to match
 - [ ] (In Progress) [Netlify Open Source plan](https://www.netlify.com/legal/open-source-policy) application submitted
   - [X] License
-  - [ ] Code of Conduct at the top level directory of the project repository or prominently in the documentation (with a link in the navigation, footer, or homepage)
+  - [X] Code of Conduct at the top level directory of the project repository or prominently in the documentation (with a link in the navigation, footer, or homepage)
   - [X] Must feature a link to Netlify service
   - [ ] (In Progress) Review that all conditions are met, fill out the form and submit
-- [ ] machine-data-hub CLI does local ETL on at least three of the datasets
 - [X] Nested dataset schema
   - [X] each dataset can contain multiple files
   - [X] break out per file metrics vs. dataset metrics
-- [ ] Dataset content pre-rendered, only user interaction elements (upvote controls and counts) load after hydration
 - [X] Submit a Dataset fully functioning
   - [X] Front end form
   - [X] Back end saves suggestion to Github API (preferred) or Postgres
@@ -22,24 +23,28 @@ Near term
   - [X] sphinx documentation pushes to readthedocs on tag
   - [ ] library builds and pushes to PyPI on tag
   - [X] release notes section added to sphinx documentation
-- [ ] (In Progress) Blog functionality added to web app
+- [X] Blog functionality added to web app
   - [X] blog content can be added to repo in markdown format
 - [ ] (In Progress) create a getting started page
-  - [ ] Add general step by step process
-  - [ ] Add why people should use it
+  - [X] Add general step by step process
+  - [X] Add why people should use it
+  - [ ] Add python package section
 - [ ] Three documented examples of ML model built from a dataset
   - [X] Get working ML model in notebook
   - [X] Write blog post tutorial with example
-  - [ ] Get feedback from LM mentors
+  - [X] Get feedback from LM mentors
+  - [ ] Implement feedback from LM mentors and update on website
 - [ ] (In Progress) UW ML Course students use machine-data-hub as data source for class project
-- [ ] Web App automated end to end testing
-- [ ] Web app receives a 90+ rating from [lighthouse](https://developers.google.com/web/tools/lighthouse) for performance
-  - [ ] Fix slow image loading
+- [ ] Web app receives a 90+ rating from [lighthouse] (https://developers.google.com/web/tools/lighthouse) for performance
+  - [ ] (In Progress) Fix slow image loading
 
 Longer term
+- [ ] machine-data-hub CLI does local ETL on at least three of the datasets
+- [ ] Web App automated end to end testing
 - [ ] Auth-N (Authentication) implemented
 - [ ] Up Voting datasets
   - [ ] mitigation plan for duplicate votes (i.e. require Auth-N to cast a vote)
+  - [ ] Dataset content pre-rendered, only user interaction elements (upvote controls and counts) load after hydration
 - [ ] machinedatahub analytics (page views, dataset download counts) with Postgres
 - [ ] User trial with survey and reward to get feedback from potential users (possibly use to incentivize students above)
 - [ ] External user submits a new dataset
