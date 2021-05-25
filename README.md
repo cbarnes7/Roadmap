@@ -3,9 +3,9 @@
 Near term
 
 - [X] machinedatahub.ai site live
-- [ ] Metadata fully populated
-  - [ ] Make sure JSON schema is same from dataset to dataset
-  - [ ] Change "Dataset 1, 2" etc to "File 1/2" etc
+- [X] Metadata fully populated
+  - [X] Make sure JSON schema is same from dataset to dataset
+  - [X] Change "Dataset 1, 2" etc to "File 1/2" etc
 - [X] rebrand github group/repos to match
 - [ ] (In Progress) [Netlify Open Source plan](https://www.netlify.com/legal/open-source-policy) application submitted
   - [X] License
@@ -18,10 +18,10 @@ Near term
 - [X] Submit a Dataset fully functioning
   - [X] Front end form
   - [X] Back end saves suggestion to Github API (preferred) or Postgres
-- [ ] machine-data-hub published to PyPI
+- [X] machine-data-hub published to PyPI
   - [X] unit testing runs on every push
   - [X] sphinx documentation pushes to readthedocs on tag
-  - [ ] library builds and pushes to PyPI on tag
+  - [X] library builds and pushes to PyPI on tag
   - [X] release notes section added to sphinx documentation
 - [X] Blog functionality added to web app
   - [X] blog content can be added to repo in markdown format
@@ -29,14 +29,16 @@ Near term
   - [X] Add general step by step process
   - [X] Add why people should use it
   - [ ] Add python package section
-- [ ] Three documented examples of ML model built from a dataset
+- [X] Three documented examples of ML model built from a dataset
   - [X] Get working ML model in notebook
   - [X] Write blog post tutorial with example
   - [X] Get feedback from LM mentors
-  - [ ] Implement feedback from LM mentors and update on website
+  - [X] Implement feedback from LM mentors and update on website
 - [ ] (In Progress) UW ML Course students use machine-data-hub as data source for class project
-- [ ] Web app receives a 90+ rating from [lighthouse] (https://developers.google.com/web/tools/lighthouse) for performance
-  - [ ] (In Progress) Fix slow image loading
+  - [ ] Talk to UW 416 Course Instructor
+  - [ ] Follow up with Wes for Feedback
+- [X] Web app receives a 90+ rating from [lighthouse] (https://developers.google.com/web/tools/lighthouse) for performance
+  - [X] (In Progress) Fix slow image loading
 
 Longer term
 - [ ] machine-data-hub CLI does local ETL on at least three of the datasets
