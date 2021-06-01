@@ -35,8 +35,8 @@ Near term
   - [X] Get feedback from LM mentors
   - [X] Implement feedback from LM mentors and update on website
 - [ ] (In Progress) UW ML Course students use machine-data-hub as data source for class project
-  - [ ] Talk to UW 416 Course Instructor
-  - [ ] Follow up with Wes for Feedback
+  - [ ] Talk to UW 416 Course Instructor and send out email about response
+  - [X] Follow up with Wes for Feedback
 - [X] Web app receives a 90+ rating from [lighthouse] (https://developers.google.com/web/tools/lighthouse) for performance
   - [X] (In Progress) Fix slow image loading
 
